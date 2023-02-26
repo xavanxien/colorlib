@@ -1,0 +1,182 @@
+*{
+    box-sizing:border-box;
+}
+.menu ul li {
+    list-style-type: none;
+    text-transform: uppercase;
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    font-weight: bold;
+    color: rgb(13, 13, 80);
+}
+ul li{
+    text-transform: uppercase;
+    font-size: large;
+    font-family: Arial, Helvetica, sans-serif;
+}
+.color1{
+    color: rgb(10, 10, 87);
+}
+.clear{
+    clear: both;
+}
+.box{
+    border: 1px solid;
+    height: 30px;
+}
+.center{
+    text-align: center;
+    align-items:center;
+    vertical-align: middle;
+    justify-content: center;
+   margin: 0 auto;
+}
+.border-25{
+    border: 1px solid;
+    border-radius: 25%;
+    display: inline-block;
+}
+.border-50{
+    border: 1px solid;
+    border-radius: 50%;
+    margin: 0 15px;
+}
+.navbar-toggler:focus{
+    box-shadow: none;
+}
+.row{
+    display: flex;
+    flex-direction:row;
+    margin: 5px;
+}
+
+img{
+    width: 100%;
+}
+.carousel-item h1{
+    font-size: xxx-large;
+    font-family: 'Times New Roman', Times, serif;
+    font-weight: bold;
+}
+button{
+    font-size: large;
+    border: 0ch;
+    border-radius: 2px;
+    background-color: rgb(94, 66, 219);
+    transition: all 1s ease;
+}
+button:hover{
+    background-color: rgb(55, 201, 189);
+}
+.shop{
+    position: relative;
+}
+.shop button{
+    position: absolute;
+    top: 30%;
+    right: 35%;
+    opacity: 0;
+    transition: all 1s ease;
+    width: 30%;
+}
+.shop .name{
+    position: absolute;
+    bottom: 0px;
+    right: 5%;
+    border: 1px none;
+    width: 80%;
+    height: 0px;
+    background-color: rgba(138, 134, 134,0.5);
+    color:white;
+    text-transform: uppercase;
+    margin: 5px 15px;
+    transition: all 1s ease;
+    text-align: center;
+    padding-top: 40px;
+    font-weight: bolder;
+}
+.shop:hover button{
+    top: 50%;
+    opacity: 1;
+}
+.shop:hover .name{
+    height: 100px;
+}
+.shopnow{
+    margin-left: 10px;
+}
+.new h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-family: 'Times New Roman', Times, serif;
+    color:rgb(4, 4, 61);
+    font-weight: bold;
+}
+.mg-top-100{
+    margin-top: 100px;
+}
+.arrival{
+    position: relative;
+
+}
+.arrival-name{
+    text-align: center;
+    font-weight: bold;
+    font-size: larger;
+}
+.arrival-star{
+    text-align: center;
+}
+.arrival-price{
+    text-align: center;
+}
+.arrival-info{
+    position: relative;
+    transition: all 1s ease;
+}
+.favorit{
+    width: 40px;
+    height: 40px;
+    position: absolute;
+    top: 20px;
+    right: 20px;
+}
+.arrival-info:hover .favorit{
+    width: 50px;
+    height: 50px;
+}
+.arrival-info:hover .arrival-name{
+    text-decoration: underline;
+}
+.arrival-info:hover {
+    transform: translateY(-10px);
+}
+p{
+    text-align: center;
+}
+.ship{
+    margin-top: 30px;
+    background-color: rgb(213, 215, 218);
+    margin-bottom: 0;
+}
+.end{
+    background-color: rgb(77, 137, 228);
+    margin:0 0;
+}
+.go-home{
+    position: fixed;
+    top: 80vh;
+    right: 10px;
+}
+.menu-2{
+    position: relative;
+}
+.list-menu-2{
+    position: absolute;
+    list-style-type: none;
+    top: 30px;
+    left: 5px;
+    transition: all 1s ease;
+    visibility: hidden;
+}
+
+
